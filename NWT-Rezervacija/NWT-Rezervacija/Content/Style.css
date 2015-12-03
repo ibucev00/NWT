@@ -1,0 +1,29 @@
+﻿body {
+}
+
+.naslovna
+{
+    background-image:  url(../Img/NightClub.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: center;
+    height: 400px;
+}
+
+.uvodniTekst{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.login{
+    margin-top: 140px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 2px solid white;
+}
+
+.register{
+    width: 300px;
+    border: 2px solid white;
+}
