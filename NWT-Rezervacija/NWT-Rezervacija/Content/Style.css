@@ -1,13 +1,25 @@
 ﻿body {
 }
 
+
 .naslovna
 {
-    background-image:  url(../Img/NightClub.jpg);
+    margin-left: -105px;
+    background-image:  url(../Img/Black.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: center;
+    height: 400px;
+    min-width: 1349px;
+}
+
+.slika{
+    background-image:  url(../Img/Black.jpg);
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    position: center;
     height: 400px;
 }
 
