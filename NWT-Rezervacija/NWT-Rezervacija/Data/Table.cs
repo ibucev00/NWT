@@ -11,7 +11,6 @@ namespace NWT_Rezervacija.Data
         public string TypeOfTable { get; set; }
 
 
-        public int ManagerId { get; set; }  //Dali treba imati strani ključ od voditelja kluba??
         public int ClubId { get; set; }
     }
 }
