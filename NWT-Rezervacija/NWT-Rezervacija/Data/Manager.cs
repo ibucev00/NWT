@@ -12,10 +12,10 @@ namespace NWT_Rezervacija.Data
         public string LastName { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
-        public string ClubLeader { get; set; }
+        //public string ClubLeader { get; set; }   //Ovaj dio ne treba jer smo dodali strani ključ od kluba
 
 
-
+        public int ClubId { get; set; }
         public ICollection<Reservation> Reservations { get; set; }
     }
 }
