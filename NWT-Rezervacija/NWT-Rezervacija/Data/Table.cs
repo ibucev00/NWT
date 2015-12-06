@@ -9,7 +9,7 @@ namespace NWT_Rezervacija.Data
     {
         public int Id { get; set; }
         public string TypeOfTable { get; set; }
-
+        asdasdasdasd
 
         public int ClubId { get; set; }
     }
