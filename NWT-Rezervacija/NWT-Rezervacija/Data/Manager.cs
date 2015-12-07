@@ -7,7 +7,7 @@ namespace NWT_Rezervacija.Data
 {
     public class Manager
     {
-        public int Id { get; set; }
+        public int ManagerId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
@@ -15,7 +15,7 @@ namespace NWT_Rezervacija.Data
         //public string ClubLeader { get; set; }   //Ovaj dio ne treba jer smo dodali strani ključ od kluba
 
 
-        public int ClubId { get; set; }
-        public ICollection<Reservation> Reservations { get; set; }
+        public virtual Club Club { get; set; }
+        public virtual ICollection<Reservation> Reservations { get; set; }
     }
 }

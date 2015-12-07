@@ -174,7 +174,6 @@
     <Compile Include="Data\Manager.cs" />
     <Compile Include="Data\Reservation.cs" />
     <Compile Include="Data\Table.cs" />
-    <Compile Include="Data\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -254,6 +253,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Img\" />
+    <Folder Include="Template\timer\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

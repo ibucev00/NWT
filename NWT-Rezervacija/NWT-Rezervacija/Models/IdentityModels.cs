@@ -3,6 +3,8 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.Generic;
+using NWT_Rezervacija.Data;
 
 namespace NWT_Rezervacija.Models
 {
@@ -16,12 +18,13 @@ namespace NWT_Rezervacija.Models
             // Add custom user claims here
             return userIdentity;
         }
+        public virtual ICollection<Reservation> Reservations { get; set; } // dodali iz usera
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("RezervacijaDB", throwIfV1Schema: false)   //umisto defealt connectiona, ovo je DBContect koji cemo koristiti
         {
         }
 

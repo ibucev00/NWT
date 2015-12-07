@@ -7,14 +7,13 @@ namespace NWT_Rezervacija.Data
 {
     public class Reservation
     {
-        public int Id { get; set; }
+        public int ReservationId { get; set; }
         public DateTime ReservationTime { get; set; }
         
 
-
-
-        public int UserId { get; set;}
-        public int ManagerId { get; set; }
-        public int ClubId { get; set; }  //Doda sam ovaj dio
+        public virtual Manager Manager { get; set; }
+        public virtual Club Club { get; set; }  //Doda sam ovaj dio      
+        public virtual Table Table { get; set; }
+        
     }
 }
