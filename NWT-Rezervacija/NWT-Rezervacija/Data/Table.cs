@@ -14,8 +14,8 @@ namespace NWT_Rezervacija.Data
         public int TableId { get; set; }
         public string TypeOfTable { get; set; }
         
-        public virtual Club Club { get; set; }
 
+        public virtual Club Club { get; set; }
         public virtual Reservation RezId { get; set; }
     }
 }

@@ -12,7 +12,7 @@ namespace NWT_Rezervacija.Data
         
 
         public virtual Manager Manager { get; set; }
-        public virtual Club Club { get; set; }  //Doda sam ovaj dio      
+        public virtual Club Club { get; set; }    
         public virtual Table Table { get; set; }
         
     }

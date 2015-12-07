@@ -12,7 +12,7 @@ namespace NWT_Rezervacija.Data
         public string LastName { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
-        //public string ClubLeader { get; set; }   //Ovaj dio ne treba jer smo dodali strani ključ od kluba
+        
 
 
         public virtual Club Club { get; set; }
